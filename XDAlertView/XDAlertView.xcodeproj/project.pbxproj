@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C26334DD1D51D8A000013633 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C26334DC1D51D8A000013633 /* main.m */; };
+		C26334E01D51D8A000013633 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C26334DF1D51D8A000013633 /* AppDelegate.m */; };
+		C26334E31D51D8A000013633 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C26334E21D51D8A000013633 /* ViewController.m */; };
+		C26334E61D51D8A000013633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26334E41D51D8A000013633 /* Main.storyboard */; };
+		C26334E81D51D8A000013633 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C26334E71D51D8A000013633 /* Assets.xcassets */; };
+		C26334EB1D51D8A000013633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C26334E91D51D8A000013633 /* LaunchScreen.storyboard */; };
+		C26334F51D51D8F000013633 /* XDAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C26334F41D51D8F000013633 /* XDAlertView.m */; };
+		C26334F81D51DA5F00013633 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = C26334F71D51DA5F00013633 /* UIView+Frame.m */; };
+		C26334FB1D51DAD000013633 /* XDSelectBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = C26334FA1D51DAD000013633 /* XDSelectBtn.m */; };
+		C26334FE1D51DDDA00013633 /* XDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C26334FD1D51DDDA00013633 /* XDButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C26334D81D51D89F00013633 /* XDAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C26334DC1D51D8A000013633 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C26334DE1D51D8A000013633 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C26334DF1D51D8A000013633 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C26334E11D51D8A000013633 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C26334E21D51D8A000013633 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C26334E51D51D8A000013633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C26334E71D51D8A000013633 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C26334EA1D51D8A000013633 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C26334EC1D51D8A000013633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C26334F31D51D8F000013633 /* XDAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDAlertView.h; sourceTree = "<group>"; };
+		C26334F41D51D8F000013633 /* XDAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDAlertView.m; sourceTree = "<group>"; };
+		C26334F61D51DA5F00013633 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		C26334F71D51DA5F00013633 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		C26334F91D51DAD000013633 /* XDSelectBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDSelectBtn.h; sourceTree = "<group>"; };
+		C26334FA1D51DAD000013633 /* XDSelectBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDSelectBtn.m; sourceTree = "<group>"; };
+		C26334FC1D51DDDA00013633 /* XDButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDButton.h; sourceTree = "<group>"; };
+		C26334FD1D51DDDA00013633 /* XDButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C26334D51D51D89F00013633 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C26334CF1D51D89F00013633 = {
+			isa = PBXGroup;
+			children = (
+				C26334DA1D51D8A000013633 /* XDAlertView */,
+				C26334D91D51D89F00013633 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C26334D91D51D89F00013633 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C26334D81D51D89F00013633 /* XDAlertView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C26334DA1D51D8A000013633 /* XDAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				C26334F21D51D8D200013633 /* AlertView */,
+				C26334DE1D51D8A000013633 /* AppDelegate.h */,
+				C26334DF1D51D8A000013633 /* AppDelegate.m */,
+				C26334E11D51D8A000013633 /* ViewController.h */,
+				C26334E21D51D8A000013633 /* ViewController.m */,
+				C26334E41D51D8A000013633 /* Main.storyboard */,
+				C26334E71D51D8A000013633 /* Assets.xcassets */,
+				C26334E91D51D8A000013633 /* LaunchScreen.storyboard */,
+				C26334EC1D51D8A000013633 /* Info.plist */,
+				C26334DB1D51D8A000013633 /* Supporting Files */,
+			);
+			path = XDAlertView;
+			sourceTree = "<group>";
+		};
+		C26334DB1D51D8A000013633 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C26334DC1D51D8A000013633 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C26334F21D51D8D200013633 /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				C26334F31D51D8F000013633 /* XDAlertView.h */,
+				C26334F41D51D8F000013633 /* XDAlertView.m */,
+				C26334F61D51DA5F00013633 /* UIView+Frame.h */,
+				C26334F71D51DA5F00013633 /* UIView+Frame.m */,
+				C26334F91D51DAD000013633 /* XDSelectBtn.h */,
+				C26334FA1D51DAD000013633 /* XDSelectBtn.m */,
+				C26334FC1D51DDDA00013633 /* XDButton.h */,
+				C26334FD1D51DDDA00013633 /* XDButton.m */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C26334D71D51D89F00013633 /* XDAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C26334EF1D51D8A000013633 /* Build configuration list for PBXNativeTarget "XDAlertView" */;
+			buildPhases = (
+				C26334D41D51D89F00013633 /* Sources */,
+				C26334D51D51D89F00013633 /* Frameworks */,
+				C26334D61D51D89F00013633 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XDAlertView;
+			productName = XDAlertView;
+			productReference = C26334D81D51D89F00013633 /* XDAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C26334D01D51D89F00013633 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = miaoxiaodong;
+				TargetAttributes = {
+					C26334D71D51D89F00013633 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C26334D31D51D89F00013633 /* Build configuration list for PBXProject "XDAlertView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C26334CF1D51D89F00013633;
+			productRefGroup = C26334D91D51D89F00013633 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C26334D71D51D89F00013633 /* XDAlertView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C26334D61D51D89F00013633 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26334EB1D51D8A000013633 /* LaunchScreen.storyboard in Resources */,
+				C26334E81D51D8A000013633 /* Assets.xcassets in Resources */,
+				C26334E61D51D8A000013633 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C26334D41D51D89F00013633 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26334E31D51D8A000013633 /* ViewController.m in Sources */,
+				C26334E01D51D8A000013633 /* AppDelegate.m in Sources */,
+				C26334FE1D51DDDA00013633 /* XDButton.m in Sources */,
+				C26334FB1D51DAD000013633 /* XDSelectBtn.m in Sources */,
+				C26334DD1D51D8A000013633 /* main.m in Sources */,
+				C26334F81D51DA5F00013633 /* UIView+Frame.m in Sources */,
+				C26334F51D51D8F000013633 /* XDAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C26334E41D51D8A000013633 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C26334E51D51D8A000013633 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C26334E91D51D8A000013633 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C26334EA1D51D8A000013633 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C26334ED1D51D8A000013633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C26334EE1D51D8A000013633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C26334F01D51D8A000013633 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XDAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miaoxiaodong.XDAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C26334F11D51D8A000013633 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XDAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miaoxiaodong.XDAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C26334D31D51D89F00013633 /* Build configuration list for PBXProject "XDAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26334ED1D51D8A000013633 /* Debug */,
+				C26334EE1D51D8A000013633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C26334EF1D51D8A000013633 /* Build configuration list for PBXNativeTarget "XDAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C26334F01D51D8A000013633 /* Debug */,
+				C26334F11D51D8A000013633 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C26334D01D51D89F00013633 /* Project object */;
+}
